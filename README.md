@@ -57,4 +57,12 @@ If you want to check a new file, update `./conf.d/urlrewrite.conf` file with the
 
 ---
 
+To be able to test this and see all responses, why not deploy it with ngrok?
+
+- Install ngrok as per their site: (https://ngrok.com/)
+- Start ngrok with: `$ ngrok http 8080`
+- Visit (http://127.0.0.1:4040/) to see your stats
+
+---
+
 Any questions, contact [rob@whitemouse.com](mailto:rob@whitemouse.com).
