@@ -66,14 +66,4 @@ describe("Redirect server", function () {
         302
       ));
   });
-
-  describe("jacamo test", function () {
-    it("should redirect jacamo", () =>
-      check(
-        "www.jacamo.co.uk",
-        "/shop/clothing/suits-waistcoats/suit-jackets/mens-chest-size-38",
-        "https://www.jacamo.co.uk/shop/c/clothing/suits-waistcoats/suit-jackets/f/sbtsize--Mens%20Chest%20Size~38",
-        301
-      ));
-  });
 });
