@@ -4,10 +4,10 @@
   "description": "test the httpd.config redirects",
   "main": "redirect.tests.js",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.19.2"
   },
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^7.1.1"
   },
   "scripts": {
     "test": "docker build . --no-cache"
