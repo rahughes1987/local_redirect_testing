@@ -50,12 +50,12 @@ const check = function (host, path, expectedRedirect, statusCode) {
 
 describe("Redirect server", function () {
   // Make sure we are running the test against the docker container and not production environment
-  describe("Test environment", function () {
+  describe("Test domain redirect", function () {
     it("should redirect whitemousedigital.com to whitemouse.com", () =>
       check("whitemousedigital.com", null, "https://whitemouse.com/", 302));
   });
 
-  describe("myotherdomain.com", function () {
+  describe("Test specific path redirect", function () {
     it("should redirect to mydomain.com", () =>
       check("whitemousedigital.com", null, "https://whitemouse.com/", 302));
     it("should redirect to mydomain.com while preserving path", () =>
