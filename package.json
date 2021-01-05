@@ -4,7 +4,7 @@
   "description": "test the httpd.config redirects",
   "main": "redirect.tests.js",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "mocha": "^7.1.1"
